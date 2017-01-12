@@ -157,7 +157,7 @@ namespace ConsoleApplication1
             //Console.WriteLine("Please enter any key to return!");
             //Console.ReadLine();
 
-            //使用 调用环境 获取客户发送的数据
+            //使用 调用  环境 获取客户发送的数据
             RemotingConfiguration.Configure(@"..\ConsoleApplication1\ConsoleApplication1.exe.config", false);
             Hello obj = new Hello();
 
